@@ -2,7 +2,7 @@ import json
 import requests
 from playsound import playsound
 
-
+## Convert text to speak
 def speak(text=''):
     url = "https://viettelgroup.ai/voice/api/tts/v1/rest/syn"
     data = {"text": text, "voice": "doanngocle", "id": "2", "without_filter": False, "speed": 1.0, "tts_return_option": 3}

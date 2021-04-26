@@ -6,6 +6,7 @@ import requests
 import speech_recognition as sr
 from playsound import playsound
 
+## Take input from user microphone
 def TakeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
