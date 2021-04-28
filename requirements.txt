@@ -1,3 +1,6 @@
 pip install SpeechRecognition
 pip install playsound
 pip install pyaudio
+pip install gTTS
+pip install wikipedia
+pip install psutil
