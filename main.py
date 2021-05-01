@@ -15,11 +15,21 @@ if __name__ == "__main__":
         elif "tìm wikipedia" in query:
             core.wiki(query)
         elif 'youtube' in query:
-            speak("Bạn muốn tìm gì trên youtube")
-            search_query = takeCommand().lower()
-            core.youtube(search_query)
+            core.youtube()
         elif "tình trạng máy tính" in query:
             core.cpu()
+        elif "bye" in query:
+            speak("Hẹn gặp lại bạn sau")
+            quit()
+        elif "viết ghi chú" in query:
+            core.writeNote()
+        elif "mở ghi chú" in query:
+            core.openNote()
+        elif "chụp màn hình" in query:
+            core.screenshot()
+        elif "ghi nhớ" in query:
+            core.remember()
+            
             
 
 

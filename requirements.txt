@@ -1,6 +1,8 @@
-pip install SpeechRecognition
-pip install playsound
-pip install pyaudio
-pip install gTTS
-pip install wikipedia
-pip install psutil
+pip install SpeechRecognition # Using to get input voice from user
+pip install playsound # Play audio from python 
+pip install pyaudio 
+pip install wikipedia # Get info from wiki 
+pip install psutil # Get info from system 
+pip install googletrans==3.1.0a0 # Translate lang from this to lang that 
+pip install pyautogui # Using to screenshot pc screen 
+pip install wolframalpha # Using to calculate
